@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">simple_and_advanced_calculator</string>
+
+    <string name="exit_button_name">X</string>
+    <string name="leave_button_name">←</string>
+
+    <string name="calculate_button_name">Calculate</string>
+    <string name="about_button_name">About</string>
+
+    <string name="simple_switch_side">Simple</string>
+    <string name="advanced_switch_side">Advanced</string>
+
     <string name="zero_button_name">0</string>
     <string name="one_button_name">1</string>
     <string name="two_button_name">2</string>
@@ -27,4 +37,5 @@
     <string name="percent_button_name">%</string>
     <string name="square_button_name">x^2</string>
     <string name="yth_power_button_name">x^y</string>
+    <string name="sqrt_button_name">sqrt</string>
 </resources>
