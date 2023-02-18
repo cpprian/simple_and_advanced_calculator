@@ -9,12 +9,12 @@ data class ButtonData(
     val functionName: String
 )
 
-val simpleCalculatorButton = listOf<ButtonData>(
+val simpleCalculatorButtonList = listOf<ButtonData>(
 
 )
 
-val advancedCalculatorButton = Stream.concat(
-    simpleCalculatorButton.stream(),
+val advancedCalculatorButtonList = Stream.concat(
+    simpleCalculatorButtonList.stream(),
     listOf<ButtonData>(
 
     ).stream()

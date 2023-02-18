@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">simple_and_advanced_calculator</string>
+    <string name="zero_button_name">0</string>
+    <string name="one_button_name">1</string>
+    <string name="two_button_name">2</string>
+    <string name="three_button_name">3</string>
+    <string name="four_button_name">4</string>
+    <string name="five_button_name">5</string>
+    <string name="six_button_name">6</string>
+    <string name="seven_button_name">7</string>
+    <string name="eight_button_name">8</string>
+    <string name="nine_button_name">9</string>
+    <string name="dot_button_name">.</string>
+    <string name="equal_button_name">=</string>
+    <string name="plus_button_name">+</string>
+    <string name="minus_button_name">-</string>
+    <string name="multiply_button_name">*</string>
+    <string name="division_button_name">/</string>
+    <string name="change_sign_button_name">±</string>
+    <string name="clear_operation_button_name">C/CE</string>
+    <string name="all_clear_button_name">AC</string>
+    <string name="sinus_button_name">sin</string>
+    <string name="cos_button_name">cos</string>
+    <string name="tan_button_name">tan</string>
+    <string name="log_button_name">log</string>
+    <string name="ln_button_name">ln</string>
+    <string name="percent_button_name">%</string>
+    <string name="square_button_name">x^2</string>
+    <string name="yth_power_button_name">x^y</string>
 </resources>
