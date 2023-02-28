@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.simple_and_advanced_calculator.ui.theme.Simple_and_advanced_calculatorTheme
+import com.simple_and_advanced_calculator.view.calculator.SimpleCalculatorScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-
+                    SimpleCalculatorScreen()
                 }
             }
         }
@@ -33,6 +34,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun SimpleCalculatorPreview() {
     Simple_and_advanced_calculatorTheme {
-
+        SimpleCalculatorScreen()
     }
 }
